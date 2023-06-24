@@ -159,7 +159,7 @@ h1,h2, h3,p{
     content: "";
     display: block;
     width: 20%;
-    margin-top: 15px;
+    margin-top: 5px;
     height: 2.5px;
     background-color: var(--red);
 }
@@ -195,6 +195,34 @@ h1,h2, h3,p{
 }
 .gallery img:hover{
     transform: scale(1.05);
+}
+#gallery{
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/gallery.jpg");
+}
+#contact{
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/contact.jpg");
+}
+#author{
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/author-cover.jpg");
+}
+.author-img{
+    height: 80vh;
+}
+.author-headings::before{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5px;
+    position: absolute;
+    right: 7%;
+    background-color: var(--red);
+    margin-bottom: 105px;
+}
+.author-text p{
+    letter-spacing: 10px;
+}
+.author-text :last-child{
+    letter-spacing: 0px;
 }
 .footer {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/footer.jpg");

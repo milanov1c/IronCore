@@ -1,3 +1,8 @@
+@media screen and (max-width: 993px){
+    .author-text p{
+        letter-spacing: 5px;
+    }
+}
 @media screen and (max-width: 921px){
     .bg-img{
         height: 80vh !important;
@@ -5,6 +10,13 @@
     .cover-heading{
         bottom: -2rem;
         font-size: 6.7rem;
+    }
+}
+@media screen and (max-width: 769px){
+    .author-headings::before{
+        position: relative;
+        margin: 0px auto;
+        right: 0;
     }
 }
 @media screen and (max-width: 601px){

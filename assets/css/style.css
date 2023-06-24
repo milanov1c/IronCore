@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+:root{
+    --beige:#F1F6F9;
+    --grey:#a9acb1;
+    --red:#820000;
+    --darkRed:#3D0000;
+    --black:#000000;
+    --white:#ffffff;
+    --darkGrey:#2d2828;
+    --pGrey:#0b090a;
+}
+body{
+    background-color: var(--beige);
+    color:var(--pGrey);
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+h1,h2, h3,p{
+    margin: 0px;
+}
+/*text and bg*/
+.bg-grey{
+    background-color: var(--grey);
+}
+.bg-darkGrey{
+    background-color: var(--darkGrey);
+}
+.bg-darkGrey2{
+    background-color:rgba(58, 58, 58, 0.3)
+    
+}
+.bg-darkRed{
+    background-color: var(--darkRed);
+}
+.bg-beige{
+    background-color: var(--beige);
+}
+.text-darkRed{
+    color: var(--darkRed);
+}
+.text-beige{
+    color: var(--beige);
+}
+.text-red{
+    color: var(--red);
+}
+.text-darkGrey{
+    color: var(--darkGrey);
+}
+.text-grey{
+    color: var(--grey);
+}
+.headings-font{
+    font-family: 'Bebas Neue', sans-serif;
+}
+/*margins, paddings and width*/
+.my-w-100{
+    width: 100% !important; 
+}
+.my-h-50{
+    height: 50vh !important;
+}
+/* layout  */
+#logo:hover{
+    color: var(--red);
+}
+.nav-link{
+    color: var(--beige);
+}
+.nav-link:hover{
+    border-bottom: 2px solid var(--red);
+    color: var(--beige);
+}
+.my-active{
+    color:var(--beige) !important;
+    border-bottom: 2px solid var(--red);
+}
+.btn{
+    border-radius: 0px;
+    border: 1px solid var(--beige);
+}
+.btn:hover{
+    background-color: var(--beige);
+    color: var(--red);
+}
+.quote i::before{
+    font-size: 75px;
+    color: var(--darkRed);
+    opacity: 0.9;
+}
+.quote-text::after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 1.5px;
+    margin: 0px auto;
+    background-color: var(--red);
+}
+.women-zone-box {
+    position: relative;
+}
+.women-zone i::before {
+    position: absolute;
+    font-size: 200px;
+    line-height: 200px;
+    bottom: 0;
+    color:var(--white);
+    opacity: 0.1;
+    right: 0;
+}
+.hover-block{
+    background:rgba(0, 0, 0, 0.5);
+    height:100%;
+    opacity:0;
+    transition:0.3s opacity ease-in;
+}
+.row .hover-img:hover .hover-block, .hover-block:hover{
+    cursor:pointer;
+    opacity:1;
+}
+#working-hours{
+    background-image: url("../img/working-hours.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#working-hours h2, #working-hours h3, #working-hours h4{
+    letter-spacing: 10px;
+}
+#about-us{
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/about-us.jpg");
+    
+}
+.bg-img{
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    height: 90vh;
+}
+.cover-heading{
+    bottom: -2.2rem;
+    position: absolute;
+    left: 5%;
+    color: var(--beige);
+    font-size: 7rem;
+}
+.headings-border::after{
+    content: "";
+    display: block;
+    width: 20%;
+    margin-top: 15px;
+    height: 2.5px;
+    background-color: var(--red);
+}
+#staff h2{
+    letter-spacing: 10px;
+}
+.staff-heading::before{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5px;
+    margin: 0px auto;
+    background-color: var(--grey);
+}
+.card, .card img{
+    border-radius: 0px !important;
+}
+#pricing{
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/pricing.jpg");
+}
+.list-group-item{
+    background-color: transparent;
+    border-bottom: none;
+    color: var(--grey);
+    padding-left: 0px;
+    padding-top: 5px !important;
+}
+.membership h2{
+    letter-spacing: 3px;
+}
+.gallery img{
+    transition: 400ms all;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/footer.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

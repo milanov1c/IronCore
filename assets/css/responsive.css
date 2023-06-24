@@ -1,0 +1,45 @@
+@media screen and (max-width: 921px){
+    .bg-img{
+        height: 80vh !important;
+    }
+    .cover-heading{
+        bottom: -2rem;
+        font-size: 6.7rem;
+    }
+}
+@media screen and (max-width: 601px){
+    .bg-img{
+        height: 70vh !important;
+    }
+    .cover-heading{
+        bottom: -1.77rem;
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 481px){
+    .bg-img{
+        height: 65vh !important;
+    }
+    .cover-heading{
+        bottom: -1.49rem;
+        font-size: 5rem;
+    }
+}
+@media screen and (max-width: 376px){
+    .bg-img{
+        height: 50vh !important;
+    }
+    .cover-heading{
+        bottom: -1.2rem;
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 321px){
+    .bg-img{
+        height: 45vh !important;
+    }
+    .cover-heading{
+        bottom: -1.05rem;
+        font-size: 3.5rem;
+    }
+}

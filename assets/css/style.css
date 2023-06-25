@@ -216,7 +216,7 @@ h1,h2, h3,p{
     position: absolute;
     right: 7%;
     background-color: var(--red);
-    margin-bottom: 105px;
+    margin-top: -15px;
 }
 .author-text p{
     letter-spacing: 10px;

@@ -63,6 +63,7 @@ h1,h2, h3,p{
 .headings-font{
     font-family: 'Bebas Neue', sans-serif;
 }
+
 /*margins, paddings and width*/
 .my-w-100{
     width: 100% !important; 
@@ -235,6 +236,10 @@ h1,h2, h3,p{
 @media screen and (max-width: 993px){
     .author-text p{
         letter-spacing: 5px;
+    }
+    #home-nav{
+        position:  relative !important;
+        background-color: var(--grey);
     }
 }
 @media screen and (max-width: 921px){

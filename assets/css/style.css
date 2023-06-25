@@ -206,7 +206,8 @@ h1,h2, h3,p{
     background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/author-cover.jpg");
 }
 .author-img{
-    height: 80vh;
+    height: 60vh;
+    width: 100%;
 }
 .author-headings::before{
     content: "";
@@ -231,4 +232,64 @@ h1,h2, h3,p{
     background-size: cover;
 }
 
+@media screen and (max-width: 993px){
+    .author-text p{
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width: 921px){
+    .bg-img{
+        height: 80vh !important;
+    }
+    .cover-heading{
+        bottom: -2rem;
+        font-size: 6.7rem;
+    }
+}
+@media screen and (max-width: 769px){
+    .author-headings::before{
+        position: relative;
+        margin: 0px auto;
+        right: 0;
+    }
+}
+@media screen and (max-width: 601px){
+    .bg-img{
+        height: 70vh !important;
+    }
+    .cover-heading{
+        bottom: -1.77rem;
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 481px){
+    .bg-img{
+        height: 65vh !important;
+    }
+    .cover-heading{
+        bottom: -1.49rem;
+        font-size: 5rem;
+    }
+    .author-text p{
+        letter-spacing: 0px;
+    }
+}
 
+@media screen and (max-width: 376px){
+    .bg-img{
+        height: 50vh !important;
+    }
+    .cover-heading{
+        bottom: -1.2rem;
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 321px){
+    .bg-img{
+        height: 45vh !important;
+    }
+    .cover-heading{
+        bottom: -1.05rem;
+        font-size: 3.5rem;
+    }
+}
